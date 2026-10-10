@@ -1,0 +1,28 @@
+Animation
+---------
+To animate CSS elements
+
+@keyframe myName{
+    from{font-size:20px}
+    to{font-size: 40px;}
+}
+
+
+
+Animation properties
+--------------------
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+
+
+% in Animation
+---------------
+@keyframe myName{
+    0%{font-size: 20px;}
+    50%{font-size: 30px;}
+    100%{font-size: 40px;}
+}

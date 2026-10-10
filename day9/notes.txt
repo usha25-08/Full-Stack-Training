@@ -1,0 +1,58 @@
+Arrow functions:
+----------------
+arrow functions are used to reduce the syntax of the functions
+arrow functions are introduced in the version ES6
+it follows 3 rules:
+-------------------
+1. if arrow function contains more than one function we need to keep in braces
+2. if arrow function contains return keyword then also we need to keep in braces
+3. in arrow functions "this" keyword works differently(if you are accessing "this" keyword in arrow function it will be target windows object)
+
+
+Nested functions:
+------------------
+Nested means function having another function
+
+
+callback function:
+------------------
+Any functions that will be passed as a parameter to the higher level function that functions are called as callback functions
+
+JSON:
+-----
+JavaScript object notation
+JSON is similar to JavaScript object
+
+JSON inbuilt functions:
+-----------------------
+1. JSON.Stringify()
+2. JSON.parse();
+
+eg:
+let jsonData={
+    "name":"ram",
+    "age":20;
+}
+
+BOM:
+----
+Browser Object Model
+each and every browser contains browser object Model
+BOM contains inbuilt windows object
+
+inbuilt windows functions:
+-------------------------
+innerHeight()
+innerWidth()
+outerHeight()
+outerWidth()
+windows.open()
+windows.close()
+windows.resize()
+aler()
+confirm()
+prompt()
+sessionStorage()
+localStorage()
+cookies()
+DOM()

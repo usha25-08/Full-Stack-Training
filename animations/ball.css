@@ -1,0 +1,14 @@
+.ball{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation: ball 2s linear 2s 1 normal;
+}
+@keyframes ball{
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(300px);
+    }
+}
