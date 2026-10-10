@@ -1,0 +1,31 @@
+DOM
+---
+Document object Model
+DOM is a predefined object model present in windows object which is present in BOM
+using DOM we can manipulate both html and css(DOM Manipulation)
+using DOM we can add functionality to the web page
+
+DOM methods
+-----------
+1. createElement()
+2. innerText - keyword
+3. innerHTML - variable name
+4. innerContent - variable name
+5. appendChild()
+6. removeChild()
+
+DOM selectors
+-------------
+DOM selectors are used to target the html elements
+1. getElementById()
+2. getElementsByClassName()
+3. getElementsByName()
+4. getElementsByTagName()
+5. querySelector()
+6. querySelectorAll()
+
+promises:
+----------
+In javascript promises can be handled using
+1. async/await
+2. then/catch
